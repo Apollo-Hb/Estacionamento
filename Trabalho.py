@@ -1,3 +1,38 @@
+# Aluno: Apollo.
+# Data: 17/06/2024.
+
+"""
+Desenvolva uma aplicação Python que utilize ao menos 2 coleções e funções, para que seja possível realizar o cadastro de veículos em um estacionamento com o seguinte menu:
+
+1 - Estacionar veículo
+
+2 - Retirar veículo
+
+3 - Veículos estacionados
+
+4 - Está estacionado?
+
+0 - Sair
+
+
+Deve gravar a placa do veículo que será a chave, marca, modelo, cor e proprietário.
+
+
+Para entrega:
+
+- Deve ser comentado o código explicando o que faz cada coisa.
+
+- Ter os comentários de docstring identificando o autor e data de criação
+
+- Por padrão deve estacionar um carro que você é o proprietário
+
+- Entregar aqui o link do repositório do github.
+
+- Deve respeitar as normas da PEP-8
+
+- O erros devem ser tratados.
+"""
+
 # Dicionário para armazenar os veículos estacionados
 estacionamento = {}
 
