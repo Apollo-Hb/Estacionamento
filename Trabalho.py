@@ -121,7 +121,7 @@ estacionamento["AL123"] = {
     "proprietario": "Apollo Hoinatz Bardini"  # Define o proprietário do veículo.
 }
 
-# Imprime o dicionário associado à chave 'abc' dentro do dicionário 'estacionamento'.
+# Imprime o dicionário para à chave AL123 dentro do dicionário estacionamento.
 print(estacionamento["AL123"])
 
 # Ponto de entrada do programa.
