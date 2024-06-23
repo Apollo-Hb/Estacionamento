@@ -92,7 +92,7 @@ def retirar_veiculo():
 def veiculos_estacionados():
     if estacionamento:  # Verifica se há veículos estacionados.
         print("Veículos estacionados:")
-        for placa, detalhes in estacionamento.items():  # Itera sobre os itens do dicionário de estacionamento.
+        for placa, detalhes in estacionamento.items():  # Repetir sobre os itens do dicionário de estacionamento.
             print(f"Placa: {placa}")  # Imprime a placa do veículo.
             for chave, valor in detalhes.items():  # Itera sobre os detalhes do veículo.
                 print(f"  {chave.capitalize()}: {valor}")  # Imprime os detalhes do veículo (marca, modelo, cor, proprietário).
